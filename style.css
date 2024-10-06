@@ -282,42 +282,6 @@ header {
     animation: wave-animation 4s infinite ease-in-out;
 }
 
-#wave1 {
-    z-index: 100;
-    opacity: 1;
-    bottom: 0;
-    animation-delay: 0s;
-}
-
-#wave2 {
-    z-index: 99;
-    opacity: 0.5;
-    bottom: 10px;
-    animation-delay: -1s;
-}
-
-#wave3 {
-    z-index: 98;
-    opacity: 0.3;
-    bottom: 20px;
-    animation-delay: -2s;
-}
-
-#wave4 {
-    z-index: 97;
-    opacity: 0.1;
-    bottom: 30px;
-    animation-delay: -3s;
-}
-
-@keyframes wave-animation {
-    0% {
-        background-position-x: 0;
-    }
-    100% {
-        background-position-x: 1000px;
-    }
-}
 /* Unique Wave Effect */
 .footer {
     position: relative;
